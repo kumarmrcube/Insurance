@@ -1,0 +1,10 @@
+<router-outlet></router-outlet>
+
+
+<label>username</label>
+<input type=" text" name="username" [(ngModel)]="username"/><br>
+<label>password</label>
+<input type="password" name="password" [(ngModel)]="password"/><br>
+<label>confirmpassword</label>
+<input type="password" name="confirmpassword" [(ngModel)]="confirmpassword"/><br>
+<input type="button" value="submit"  (click)="submit()"/>
